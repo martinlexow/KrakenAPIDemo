@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D46D2DD265404B500631C54 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D46D2DC265404B500631C54 /* Model.swift */; };
+		6D46D2DF26540DEA00631C54 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D46D2DE26540DEA00631C54 /* Localizable.strings */; };
 		6DFCA2722652CB29006F3B70 /* KrakenAPIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFCA2712652CB29006F3B70 /* KrakenAPIDemoApp.swift */; };
 		6DFCA2742652CB29006F3B70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFCA2732652CB29006F3B70 /* ContentView.swift */; };
 		6DFCA2762652CB2B006F3B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DFCA2752652CB2B006F3B70 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D46D2DC265404B500631C54 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6D46D2DE26540DEA00631C54 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		6DFCA26E2652CB29006F3B70 /* KrakenAPIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KrakenAPIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DFCA2712652CB29006F3B70 /* KrakenAPIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrakenAPIDemoApp.swift; sourceTree = "<group>"; };
 		6DFCA2732652CB29006F3B70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,7 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				6DFCA2712652CB29006F3B70 /* KrakenAPIDemoApp.swift */,
+				6D46D2DC265404B500631C54 /* Model.swift */,
 				6DFCA2732652CB29006F3B70 /* ContentView.swift */,
+				6D46D2DE26540DEA00631C54 /* Localizable.strings */,
 				6DFCA2752652CB2B006F3B70 /* Assets.xcassets */,
 				6DFCA27A2652CB2B006F3B70 /* Info.plist */,
 				6DFCA27B2652CB2B006F3B70 /* KrakenAPIDemo.entitlements */,
@@ -129,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DFCA2792652CB2B006F3B70 /* Preview Assets.xcassets in Resources */,
+				6D46D2DF26540DEA00631C54 /* Localizable.strings in Resources */,
 				6DFCA2762652CB2B006F3B70 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D46D2DD265404B500631C54 /* Model.swift in Sources */,
 				6DFCA2742652CB29006F3B70 /* ContentView.swift in Sources */,
 				6DFCA2722652CB29006F3B70 /* KrakenAPIDemoApp.swift in Sources */,
 			);
